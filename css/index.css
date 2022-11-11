@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header {
+    padding: 30px;
+}
+
+main {
+    padding: 30px;
+}
+
+.table1 {
+    border: 1px solid #aaa;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.table1 th, .table1 td {
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+#oto {
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+    height: 10px;
+}
+
+
+footer {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
