@@ -1,43 +1,29 @@
-* {
+body {
     margin: 0;
     padding: 0;
 }
 
-.container {
-    max-width: 700px;
-    margin: 0 auto;
+h1 {
     text-align: center;
 }
 
-header {
-    padding: 30px;
+.container {
+    max-width: max-content;
+    margin: 0 auto;
 }
 
-main {
-    padding: 30px;
-}
-
-.table1 {
-    border: 1px solid #aaa;
-    border-collapse: collapse;
-    margin: 20px auto;
-}
-
-.table1 th, .table1 td {
-    border: 1px solid #aaa;
-    padding: 10px;
+.canvas-container {
+    width: max-content;
+    margin: 0 auto;
+    background-color: greenyellow;
 }
 
 #oto {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
-    color: blue;
-    height: 10px;
-}
+    text-align: center;
+    background-color: greenyellow;
+    width: 700px;
+    margin: 30px auto;
 
-
-footer {
-    padding: 30px;
-    display: flex;
-    justify-content: center;
 }

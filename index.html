@@ -10,51 +10,25 @@
     </head>
 
     <body>
+        <h1>ウェブピアノ</h1>
         <div class="container">
-            <header>
-                <h1>ウェブピアノ</h1>
-            </header>
-
-            <main>
-                <p>PCのキーボードで演奏するピアノです。</p>
-                <p>ブラウザによっては動きません</p>
-                <p>周波数は440Hzです。</p>
-                <p>同時に押してもどちらかの音しか鳴りません。</p>
-                <p>キーボードのホームポジションでやるとやりやすいです。</p>
-                <table class="table1">
-                    <tr>
-                        <th>音</th>
-                        <td>ド</td>
-                        <td>レ</td>
-                        <td>ミ</td>
-                        <td>ファ</td>
-                        <td>ソ</td>
-                        <td>ラ</td>
-                        <td>シ</td>
-                        <td>ド</td>
-                    </tr>
-                    <tr>
-                        <th>キー</th>
-                        <td>A</td>
-                        <td>S</td>
-                        <td>D</td>
-                        <td>F</td>
-                        <td>J</td>
-                        <td>K</td>
-                        <td>L</td>
-                        <td>;</td>
-                    </tr>
-                </table>
-
-                <p id="oto"></p>
-
-            </main>
-
-            <footer>
-                <p>&copy;マック屋</p>
-            </footer>
+            <ul>
+                <li>PCのキーボードで演奏するピアノです。</li>
+                <li>ブラウザによっては動きません。</li>
+                <li>同時に押してもどちらかの音しか鳴りません。</li>
+                <li>周波数は440Hzです</li>
+                <li>キーボードのホームポジションでやるとやりやすいです。</li>
+            </ul>
         </div>
 
+        <div class="canvas-container">
+            <canvas id="keyboard" width="400" height="200"></canvas>
+        </div>
+
+        <p id="oto"></p>
+
+
+        <script src="js/keyboard.js"></script>
         <script src="js/main.js"></script>
     </body>
 
